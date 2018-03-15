@@ -62,9 +62,9 @@ func main(){
 ```
 
 ### Performance
-`CPU Model Name`: 2.3 GHz Intel Core i5
-`CPU Processors`: 4
-`Memory`: 8GB
+`CPU Model Name`: 2.3 GHz Intel Core i5    
+`CPU Processors`: 4    
+`Memory`: 8GB    
 
 ### Test Results
 |N|M|ns/op|
