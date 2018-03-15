@@ -22,6 +22,23 @@ func Benchmark10_3(b *testing.B) {
 	}
 }
 
+func Benchmark1000_5(b *testing.B) {
+	for i := 0; i < b.N; i++ { //use b.N for looping
+		RandomChoice(1000, 5)
+	}
+}
+
+func Benchmark100_5(b *testing.B) {
+	for i := 0; i < b.N; i++ { //use b.N for looping
+		RandomChoice(100, 5)
+	}
+}
+
+func Benchmark10_5(b *testing.B) {
+	for i := 0; i < b.N; i++ { //use b.N for looping
+		RandomChoice(10, 5)
+	}
+}
 func TestRC(t *testing.T) {
     var x []int
     x = RandomChoice(10, 3)

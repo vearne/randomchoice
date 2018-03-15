@@ -1,5 +1,5 @@
 ## randomchoice
-从长度为N的数组中，随机挑出M个元素
+randomly select M elements from a slice(which has N elements)
 
 
 ### Install:
@@ -60,3 +60,18 @@ func main(){
     fmt.Println(cars)
 }
 ```
+
+### Performance
+`CPU Model Name`: 2.3 GHz Intel Core i5
+`CPU Processors`: 4
+`Memory`: 8GB
+
+### Test Results
+|N|M|ns/op|
+|:---|:---|:---|
+|10|3|135|
+|100|3|267|
+|1000|3|1502|
+|10|5|197|
+|100|5|336|
+|1000|5|1582|
